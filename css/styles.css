@@ -103,3 +103,23 @@ h1{
 .boton:hover{
     color: beige;
 }
+.logo{
+    width: 215px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header{
+    background-color: rgb(24, 21, 21);
+    width: 100%;
+    display: flex;
+    flex-direction: space-around;
+    align-items: center;
+    border: 3px gold;
+}
+.seccion{
+    color: whitesmoke;
+    width: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
