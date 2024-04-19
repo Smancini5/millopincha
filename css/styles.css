@@ -114,3 +114,48 @@ h2 {
 .boton:hover {
     color: beige;
 }
+.detail-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.titleproduct{
+    align-self: center;
+    margin-bottom: 50px;
+}
+.imagen-producto{
+width: 50%;
+margin-top: 50px;
+border: solid 5px gold;
+}
+.preciodeproducto{
+    color: gold;
+    font-family: "Bebas Neue", sans-serif;
+    align-self: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.descriproducto{
+    color: gold;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.categoriaproducto{
+    color: gold;
+    margin-bottom: 30px;
+    font-family:"Bebas Neue", sans-serif;
+    align-self: flex-start;
+    font-size: 40px;
+    border: solid 2px gold;
+    padding: 0px 20px 0px 20px;
+}
+.info-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000ad ;
+}
+.categoriaproducto:hover{
+    border: solid 2px white;
+    color: white;
+}
