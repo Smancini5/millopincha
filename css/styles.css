@@ -1,22 +1,25 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(../IMG/background.jpg);
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
-    font-family: 'Outfit', sans-serif;
+h1 {
     font-size: 55px;
     align-self: center;
     margin-right: 20px;
     color: gold;
 }
-.banner{
+
+.banner {
     margin-top: 30px;
     margin-bottom: 20px;
     border: solid 1px gold;
@@ -26,33 +29,33 @@ h1{
     align-items: center;
     height: 150px;
     width: 100%;
-    }
-
-.secciones-nombre{
-    margin-bottom: 15px;
-    }
-
-    h2{
-        color: gold;
-        display: flex;
-        flex-direction: center;
-        justify-content: center;
-        padding-left: 70px;
-        font-size: 36px;
-
-    }
-    .fila-productos{
-        display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       justify-content: space-around;
-       align-items: center;
-    border: solid 1px gold;
-    width: 100%;
-    
 }
 
-.imagen-inicio-container{
+.secciones-nombre {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: gold;
+    font-size: 36px;
+}
+
+.fila-productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px gold;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 80px;
+}
+
+.imagen-inicio-container {
     width: 100%;
     height: 400px;
     border: solid 3px gold;
@@ -62,24 +65,29 @@ h1{
     background-color: black;
 }
 
-.imagen-inicio{
+.imagen-inicio {
     width: 100%;
 }
 
-.producto-container{
+.producto-container {
     width: 30%;
-    height: 700px;
-    background-color: black;
+    height: 750px;
+    background-color: #000000ad;
+    margin-bottom: 20px;
 }
-.nombreproducto{
+
+.nombreproducto {
+    font-family: "Bebas Neue", sans-serif;
     color: GOLD;
     font-size: 30px;
     display: flex;
     flex-direction: center;
     justify-content: center;
     margin: 10px 10px 10px 10px;
-}    
-.precioproducto{
+}
+
+.precioproducto {
+    font-family: "Bebas Neue", sans-serif;
     color: gold;
     font-size: 30px;
     display: flex;
@@ -87,12 +95,14 @@ h1{
     justify-content: center;
     margin: 20px 0px 20px 0px;
 }
-.descripcionlarga{
+
+.descripcionlarga {
     color: gold;
     font-size: 17px;
     margin: 10px 0px 30px 60px;
 }
-.boton{
+
+.boton {
     color: gold;
     display: flex;
     flex-direction: row;
@@ -100,6 +110,7 @@ h1{
     margin-left: 10px;
 
 }
-.boton:hover{
+
+.boton:hover {
     color: beige;
 }
