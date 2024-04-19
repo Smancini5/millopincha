@@ -107,19 +107,31 @@ h1{
     width: 215px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 .header{
     background-color: rgb(24, 21, 21);
     width: 100%;
-    display: flex;
-    flex-direction: space-around;
-    align-items: center;
-    border: 3px gold;
+    padding: 10px;
 }
-.seccion{
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 100px;
+    align-items: center;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
     color: whitesmoke;
-    width: 32px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    text-decoration: none;
 }
