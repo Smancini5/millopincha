@@ -251,3 +251,11 @@ footer a {
 .electronica:hover{
     color: white;
 }
+.elementos{
+    h3{
+        color: antiquewhite;
+    }
+    p{
+        color: antiquewhite;
+    }
+}
