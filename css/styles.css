@@ -229,3 +229,9 @@ border: solid 5px gold;
 .link-ropa{
     display: flex;
 }
+.electronica{
+    color: gold;
+}
+.electronica:hover{
+    color: white;
+}
