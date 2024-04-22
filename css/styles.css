@@ -333,5 +333,12 @@ footer a {
         margin-top: 20px;
     }
 
-    
+    .producto-container{
+        width: 90%;
+        height: 750px;
+    }
+
+    .formLog{
+        flex-direction: column;
+    }    
 }
