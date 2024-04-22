@@ -7,6 +7,13 @@
 body{
     background-image: url(../IMG/background.jpg);
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
 }
 
 h1{
@@ -37,7 +44,6 @@ h1{
         display: flex;
         flex-direction: center;
         justify-content: center;
-        padding-left: 70px;
         font-size: 36px;
 
     }
@@ -164,6 +170,10 @@ border: solid 5px gold;
 .header{
     background-color: rgb(19, 17, 17);
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .seccion{
     text-decoration: none;
@@ -173,17 +183,18 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 nav ul li {
     display: inline;
-    margin-right: 40px;
-    margin-left: 100px;
+    margin-right: 50px;
     flex-wrap: wrap;
     flex-direction: row;
 }
-nav ul li:last-child {
-    margin-right: 0;
-}
+
 nav ul li a {
     color: rgb(252, 250, 250);
     text-decoration: none;
@@ -194,10 +205,16 @@ nav ul li a {
     text-align: center;
 }
 footer {
-    background-color: #333; 
-    color: white; 
-    padding: 20px 0; 
-    text-align: center; 
+    position: absolute;
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
 }
 
 .pie-content {
@@ -218,7 +235,7 @@ footer a {
     color: gold;
     background-color:#000000ad;
     font-family: "Bebas Neue", sans-serif;
-    height: calc(100vh - 37px);       
+    margin: 100px 0px;
 }
 .formLog{
     display: flex;
@@ -233,7 +250,7 @@ footer a {
     color: gold;
     background-color:#000000ad;
     font-family: "Bebas Neue", sans-serif;
-    height: calc(100vh - 37px);   
+    margin: 100px 0px;  
 }
 .login-link{
     text-decoration: none;
@@ -280,4 +297,41 @@ footer a {
     p{
         color: antiquewhite;
     }
+}
+.a-login{
+    color: gold;
+    margin-left: 20px;
+    
+}
+.comprar{
+    color: gold;
+}
+.contenedor{
+    margin-left: 460px;
+}
+
+
+@media (max-width: 430px){
+
+    nav ul{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .detail-info{
+        flex-direction: column;
+    }
+
+    .imagen-producto{
+        width: 90%;
+        align-self: center;
+    }
+
+    .link-ropa{
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    
 }
