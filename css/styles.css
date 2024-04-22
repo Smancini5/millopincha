@@ -210,6 +210,21 @@ footer a {
     text-decoration: none;
 }
 
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    background-color:#000000ad;
+    font-family: "Bebas Neue", sans-serif;
+    height: calc(100vh - 37px);       
+}
+.formLog{
+    display: flex;
+    flex-direction: row;
+
+}
 .form-register{
     display: flex;
     flex-direction: column;
