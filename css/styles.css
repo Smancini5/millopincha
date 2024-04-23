@@ -310,7 +310,6 @@ footer a {
     margin-left: 460px;
 }
 
-
 @media (max-width: 430px){
 
     nav ul{
@@ -341,4 +340,13 @@ footer a {
     .formLog{
         flex-direction: column;
     }    
+}
+
+.comprar {
+    padding: 5px 10px; 
+    background-color: gold; 
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    margin-left: 420px;  
 }
